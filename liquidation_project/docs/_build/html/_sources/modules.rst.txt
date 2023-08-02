@@ -1,0 +1,7 @@
+liquidation_project
+===================
+
+.. toctree::
+   :maxdepth: 4
+
+   liquidation_project

@@ -1,0 +1,10 @@
+liquidation_project
+===================
+
+.. toctree::
+   :maxdepth: 4
+
+   liquidation_app
+   liquidation_project
+   manage
+   stream
