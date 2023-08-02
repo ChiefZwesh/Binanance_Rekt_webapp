@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | BinanceRekt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="contact-theme">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{% url 'dashboard' %}">BinanceRekt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'dashboard' %}">Liquidations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1 class="display-4 text-uppercase font-weight-bold my-5">About BinanceRekt</h1>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-justify">
+                        BinanceRekt is a live liquidation feed that provides real-time information on liquidations in the cryptocurrency market. Our platform monitors the market for significant price movements and detects liquidation events across various cryptocurrency exchanges. We aim to provide traders and investors with valuable insights into the impact of liquidations on the crypto market.
+                    </p>
+                    <p class="text-justify">
+                        Liquidations occur when traders' positions are forcefully closed by exchanges due to insufficient margin or collateral. These events can have a profound impact on the market, leading to increased volatility and price fluctuations. By tracking liquidations, BinanceRekt helps users stay informed about market trends and potential trading opportunities.
+                    </p>
+                    <p class="text-justify">
+                        Our sophisticated algorithm analyzes liquidation data and presents it in an easily understandable format. Through our platform, users can access real-time liquidation information, including the symbol, side (buy/sell), original quantity, price, average price, and order trade time. By staying updated on liquidations, traders can make informed decisions and adapt their strategies accordingly.
+                    </p>
+                    <p class="text-justify">
+                        Taking advantage of liquidations requires a deep understanding of market dynamics and risk management. Traders can use liquidation data to identify potential market reversals, identify areas of market imbalance, and implement contrarian trading strategies. Additionally, understanding the impact of liquidations on specific cryptocurrencies or trading pairs can provide insights into market sentiment and investor behavior.
+                    </p>
+                    <p class="text-justify">
+                        BinanceRekt is dedicated to providing accurate and reliable liquidation data to empower traders and investors in the crypto market. We strive to deliver a comprehensive
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
